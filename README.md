@@ -22,7 +22,7 @@ Lekki i wydajny skrypt wsadowy dla systemu Windows, który integruje bezpieczne,
 ## ⚙️ Instalacja i Odinstalowanie
 
 * **Instalacja:** Uruchom plik `sd_context-install.reg`, aby dodać opcję **SDelete** do menu kontekstowego.
-* **Odinstalowanie:** Uruchom plik `uninstall_sdelete.reg`, aby całkowicie usunąć opcję z rejestru.
+* **Odinstalowanie:** Uruchom plik `sd_context-uninstall.reg`, aby całkowicie usunąć opcję z rejestru.
 
 ---
 
