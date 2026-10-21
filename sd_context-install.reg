@@ -1,0 +1,30 @@
+Windows Registry Editor Version 5.00
+
+; ======================================================================
+; 1. USUWANIE STARYCH WPISÓW REJESTRU
+; ======================================================================
+
+[-HKEY_CLASSES_ROOT\Directory\shell\SDelete]
+[-HKEY_CLASSES_ROOT\*\shell\SDelete]
+
+
+; ======================================================================
+; 2. DODAWANIE NOWYCH WPISÓW DLA REJEKTORA / MENU KONTEKSTOWEGO
+; ======================================================================
+
+; --- Opcja dla FOLDERÓW (Directory) ---
+[HKEY_CLASSES_ROOT\Directory\shell\SDelete]
+@="SDelete"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\SDelete\command]
+@="\"C:\\TWOJA_SCIEZKA\\sdelete.bat\" \"%1\""
+
+
+; --- Opcja dla PLIKÓW (*) ---
+[HKEY_CLASSES_ROOT\*\shell\SDelete]
+@="SDelete"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\*\shell\SDelete\command]
+@="\"C:\\TWOJA_SCIEZKA\\sdelete.bat\" \"%1\""

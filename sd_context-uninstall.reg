@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; ======================================================================
+; ODINSTALOWANIE / USUNIĘCIE SDELETE Z MENU KONTEKSTOWEGO
+; ======================================================================
+
+; Usunięcie opcji z menu kontekstowego dla FOLDERÓW
+[-HKEY_CLASSES_ROOT\Directory\shell\SDelete]
+
+; Usunięcie opcji z menu kontekstowego dla PLIKÓW
+[-HKEY_CLASSES_ROOT\*\shell\SDelete]
