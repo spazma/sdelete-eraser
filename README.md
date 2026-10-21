@@ -29,7 +29,7 @@ Lekki i wydajny skrypt wsadowy dla systemu Windows, który integruje bezpieczne,
 ## ✏️ Zmiana ścieżek i konfiguracja
 
 ### 1. Rejestr (`.reg`)
-Jeśli przeniesiesz skrypt w inne miejsce, otwórz plik `.reg` w Notatniku i zaktualizuj ścieżki:
+Jeśli przeniesiesz skrypt .BAT w inne miejsce, otwórz plik `.reg` w Notatniku i zaktualizuj ścieżki:
 
 ```registry
 Windows Registry Editor Version 5.00
