@@ -1,6 +1,6 @@
 # 🗑️ SDelete — Secure File Eraser / context menu
 
-Lekki i wydajny skrypt wsadowy dla systemu Windows, który integruje bezpieczne, bezpowrotne kasowanie danych (zgodnie ze standardem *DoD 5220.22-M*) z menu kontekstowym pod prawym przyciskiem myszy. Narzędzie obsługuje pojedyncze pliki oraz całe katalogi, oferując czytelny interfejs konsoli z wizualnym paskiem postępu.
+Lekki i wydajny skrypt wsadowy dla systemu Windows, który integruje bezpieczne, bezpowrotne kasowanie danych (zgodnie ze standardem *DoD 5220.22-M* - 1 PASS) z menu kontekstowym pod prawym przyciskiem myszy. Narzędzie obsługuje pojedyncze pliki oraz całe katalogi, oferując czytelny interfejs konsoli z wizualnym paskiem postępu.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c19fe60b-dc79-4603-ae12-d4cd158dc362" width="48%" alt="SDelete Oczekiwanie" />
